@@ -1,5 +1,5 @@
 // Le4Q11.cpp
-// add two time values of time values of type struct 
+// add two time values of type struct 
 
 #include <iostream>
 
