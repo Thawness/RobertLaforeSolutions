@@ -2,15 +2,15 @@
 
 using namespace std;
 
-struct timee{
+struct timeT{
     int hours, minutes, seconds;
 };
 
-void swap(timee&, timee&);
+void swap(timeT&, timeT&);
 
 int main(){
 
-    timee time1, time2;
+    timeT time1, time2;
     char ch;
 
     cout << "Enter 1st time in hh:mm:ss format: ";
@@ -31,7 +31,7 @@ int main(){
     return 0;
 }
 
-void swap(timee& time1, timee& time2){
+void swap(timeT& time1, timeT& time2){
     time1.hours = time1.hours+time2.hours;
     time2.hours = time1.hours-time2.hours;
     time1.hours = time1.hours-time2.hours;
