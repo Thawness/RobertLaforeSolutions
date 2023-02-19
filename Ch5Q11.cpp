@@ -2,11 +2,11 @@
 Solution to Robert Lafore CPP Ch.5 Q.11
 --------------------------------------------
 
-Write a program that obtains from the user two money amounts in old-style British pound (£9:19:11), adds them,
+Write a program that obtains from the user two money amounts in old-style British pound (Â£9:19:11), adds them,
 and displays the result in old style format.
 Use three functions. First should obtain a pounds-shilling-pence value from the user and return the value as a
-structure of type sterling. The second should take two arguments of type sterling and return a value of struct
-sterling type, which is the sum of the arguments. The third should take a sterling structure as its argument
+structure of type sterling (Ch4 Exercise 10). The second should take two arguments of type sterling and return a value 
+of struct sterling type, which is the sum of the arguments. The third should take a sterling structure as its argument
 and display its value.
 */
 
